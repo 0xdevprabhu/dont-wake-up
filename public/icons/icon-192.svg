@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0B2" />
+      <stop offset="50%" stop-color="#FFCC80" />
+      <stop offset="100%" stop-color="#FFB74D" />
+    </linearGradient>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#80DEEA" />
+      <stop offset="100%" stop-color="#26C6DA" />
+    </linearGradient>
+    <linearGradient id="blanketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF59D" />
+      <stop offset="100%" stop-color="#FFE082" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#E65100" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- App Icon Background with smooth squircle -->
+  <rect x="6" y="6" width="180" height="180" rx="42" fill="url(#bgGrad)" filter="url(#shadow)" />
+  <rect x="8" y="8" width="176" height="176" rx="40" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.6" />
+
+  <!-- White fluffy pillow -->
+  <ellipse cx="96" cy="116" rx="68" ry="44" fill="#FFFFFF" opacity="0.95" />
+  <ellipse cx="96" cy="116" rx="64" ry="40" fill="#F5F5F5" />
+
+  <!-- Character Head (Mr. Snoozy) -->
+  <circle cx="96" cy="98" r="42" fill="#FFE0B2" />
+  
+  <!-- Rosy Cheeks -->
+  <circle cx="72" cy="108" r="9" fill="#FF8A80" opacity="0.6" />
+  <circle cx="120" cy="108" r="9" fill="#FF8A80" opacity="0.6" />
+
+  <!-- Sleeping Closed Eyes (curved eyelashes) -->
+  <path d="M 70 94 Q 78 102 86 94" fill="none" stroke="#5D4037" stroke-width="4.5" stroke-linecap="round" />
+  <path d="M 106 94 Q 114 102 122 94" fill="none" stroke="#5D4037" stroke-width="4.5" stroke-linecap="round" />
+
+  <!-- Cute button nose -->
+  <ellipse cx="96" cy="103" rx="4" ry="3" fill="#FFAB91" />
+
+  <!-- Peaceful sleeping smile -->
+  <path d="M 91 112 Q 96 117 101 112" fill="none" stroke="#6D4C41" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Nightcap Hat -->
+  <path d="M 62 82 Q 96 52 130 82 Q 138 60 148 50 Q 154 75 125 78 Z" fill="url(#capGrad)" />
+  <!-- Hat rim -->
+  <ellipse cx="96" cy="80" rx="36" ry="9" fill="#E0F7FA" />
+  <!-- Hat pom-pom -->
+  <circle cx="150" cy="50" r="10" fill="#FFFFFF" stroke="#80DEEA" stroke-width="2" />
+
+  <!-- Blanket at bottom -->
+  <path d="M 40 134 Q 96 118 152 134 C 158 150 148 165 96 165 C 44 165 34 150 40 134 Z" fill="url(#blanketGrad)" />
+  <path d="M 40 134 Q 96 118 152 134" fill="none" stroke="#FFD54F" stroke-width="4" />
+
+  <!-- Floating animated ZZZ text -->
+  <g fill="#4A148C" opacity="0.85" font-family="Arial, sans-serif" font-weight="900">
+    <text x="136" y="58" font-size="20">Z</text>
+    <text x="152" y="40" font-size="26">Z</text>
+    <text x="122" y="78" font-size="14">z</text>
+  </g>
+</svg>
