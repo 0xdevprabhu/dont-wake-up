@@ -218,3 +218,4 @@ export default function SettingsScreen({ onBack, onResetSuccess }) {
     </div>
   );
 }
+

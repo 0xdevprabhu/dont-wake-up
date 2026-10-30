@@ -244,3 +244,4 @@ The level architecture is modular and decoupled from React components.
    ```
 
 3. Level 21 will **automatically appear in the Level Selector grid** and become playable as soon as Level 20 is conquered!
+

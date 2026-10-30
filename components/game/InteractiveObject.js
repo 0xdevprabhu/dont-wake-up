@@ -496,3 +496,4 @@ export default function InteractiveObject({
     </div>
   );
 }
+

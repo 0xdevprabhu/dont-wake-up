@@ -60,3 +60,4 @@ export default function NoiseMeter({ noise = 0, max = 100 }) {
     </div>
   );
 }
+

@@ -34,3 +34,4 @@ export default function HintModal({ hintText, onClose }) {
     </div>
   );
 }
+
